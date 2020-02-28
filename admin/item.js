@@ -29,8 +29,8 @@ test('/dasboard', async t => {
     .ok()
 })
 
-test('/search', async t => {
-  await t
-    .typeText('[name="q"]', 'Yuta Yamada')
-    .click('button[type="submit"]')
-})
+// test('/search', async t => {
+//   await t
+//     .typeText('[name="q"]', 'Yuta Yamada')
+//     .click('button[type="submit"]')
+// })
